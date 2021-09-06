@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Hayley Goodacre">
+    <title>FreeCodeCamp Survey Form</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Poppins&display=swap" rel="stylesheet">
+    <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <style type="text/css">
+         body{
+             font-family: Poppins;
+             }
+         
+         form{
+           display: flex;
+            flex-direction: column;
+            align-items: left;
+            line-height: 20px;
+       }
+       #title{
+           font-family:  Arial;
+           font-size: 24px;
+           color: black;
+           text-align: center;
+       }
+       #description{
+           text-align: center;
+           font-size: 16px
+       }
+       #red{
+           color: red;
+       }
+       #blue{
+           color: blue;
+       }
+       #green{
+           color: green;
+       }
+       #yellow{
+           color: rgb(161, 161, 7);
+       }
+       #pink{
+           color: rgb(255, 133, 154);
+       }
+        </style>
+
+</head>
+
+<body> 
+    <h1 id="title">Survey</h1>
+    <p id="description">Below is a series of meaningless questions, aimed at passing the Free Code Camp Survey Task</p>
+    <form id="survey-form">
+        <label for ="Name" id="name-label">Name:</label><input id="name" type="text" required placeholder="Insert your first name here">
+        <br>
+        <label for ="Email" id="email-label">Email:</label><input id="email" type ="email" required  placeholder="Insert your email here">
+        <br>
+        <label for ="Number" id="number-label">Phone Number:</label><input id="number" type="number" pattern="[0-9]" required min="0" max="9"  placeholder="Insert your preferred contact number here" >
+        <br>
+        <div>
+            What is the sum of 3+10?:
+            <label for="seven">Seven</label><input type="radio" id="seven" name="seven-thirteen-one" value="1"> 
+            <label for="thirteen">Thirteen</label><input type="radio" id="second" name= "seven-thirteen-one" value="2"> 
+            <label for="">One</label><input type="radio" id="first" name="seven-thirteen-one" value="3"> 
+        </div>
+        <div>
+            Is this a stupid survey?
+            <label for="Yes"><input type="checkbox" input id="Yes" value="yes">Yes</label>
+            <label for="No"><input type="checkbox" input id= "No" value="No"> No</label>
+            <label for= "Maybe"><input type= "checkbox" input id= "Maybe" value="maybe">Maybe</label>
+        </div>
+        <label for="colors" id=fave-colour>Choose your favourite colour:</label>
+            <select name="colors" id="dropdown">
+            <option value="blue" id="blue">Blue</option>
+            <option value="green" id="green">Green</option>
+            <option value="yellow" id="yellow">Yellow</option>
+            <option value="red" id="red">Red</option>
+            <option value= "Pink" id="pink">Pink</option>
+           <option value = "black" id="black">Black</option>
+</select>
+        <br>
+        <textarea placeholder="Please write any additional comments here"></textarea>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+
+</html>
