@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Hayley Goodacre">
+    <title>FreeCodeCamp Tribute Page</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Poppins&display=swap" rel="stylesheet">
+    <style type="text/css">
+        background-color {
+            color: #ffffff;
+        }
+
+        #img-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #main {
+            font-family:Poppins;
+            color: navy;
+        }
+
+        #title {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        #subtitle {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #image {
+
+            max-width: 640px;
+            height: auto;
+        }
+        #img-caption{
+            color: black;
+        }
+
+        #tribute-info {
+            margin: 0 10% 0 10%;
+        }
+
+        #timeline {
+            text-align: left;
+            list-style-type: "";
+        }
+
+         a:hover {
+            color: #7F8000;
+        }
+        #page-footer{
+            margin-top: 3em;
+            border-top: solid black 1px;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body id="main">
+    <h1 id="title">Grace Tame</h1>
+    <h2 id="subtitle">A tribute page to 2021 Australian of the Year: Miss Grace Tame</h2>
+
+    <div id="img-div">
+        <img id="image" src="https://cdn.newsapi.com.au/image/v1/e94a8d149915894e25d0b7965e63aeaa?width=650"
+            alt="Grace stands in front of the National Press Club banner, smiling, her left hand raised in a fist - a gesture of triumph." />
+        <figcaption id="img-caption"><i>Grace stands in front of the National Press Club banner, smiling, her left hand
+            raised in a fist - a gesture of triumph.</i></figcaption>
+    </div>
+
+
+    <div id="tribute-info">
+        <p> Grace Tame (born 1994) is a Tasmanian Australian woman, who gained national respect by standing up to the
+            media and advocating for herself and other survivors of sexual assault.
+            Grace was a student at St Michael's Collegiate school - holding dual scholarships to attend the prestigious
+            school. Throughout her schooling, Grace struggled with her mental health and was battling Anorexia Nervosa
+            when she was first targeted by her High School Mathematics teacher.
+
+            Below is a timeline of the events leading up to Grace's Australian of the Year Nomination, and win. </p>
+
+        <ul id="timeline">
+            <li><strong> April 2010</strong> The maths teacher, who will remain un-named in this page, starts to show
+                interest in Grace. He allows her to confide in him, and gives her a key to his office.</li>
+            <li><strong>April - June 2010</strong> The pair have regular meetings, with other teachers enabling the
+                contact between the two, by taking Grace to him when she felt overwhelmed at school.</li>
+            <li><strong>June 2010</strong> The teacher locks Grace in a cupboard, reinacting previous trauma, and
+                sexually assaulting her.</li>
+            <li><strong>April 2011</strong> After approximately 30 instances of physical and sexual assault, Grace finds
+                the courage to report her abuser.</li>
+            <li><strong>August 2011</strong> The teacher is found guilty of "Maintaining a sexual relationship with a
+                minor" and "Posession of child pornography" and sentenced to 2 years, 10 months in prison.</li>
+            <li><strong>March 2013</strong> The perpetrator is released from prison, after serving 18 months of his 34
+                month sentence.</li>
+            <li><strong>Late 2015 - Early 2016</strong> The perpetrator brags on the internet about the assault being
+                "awesome", and formally reoffends when he is found with more child pornography.</li>
+            <li><strong> June 2016</strong> The perpetrator is released after serving a further four months.</li>
+            <li><strong>May 2017</strong> The perpetrator is currently a student at the University of Tasmania - and
+                other students file a formal petition to have him removed from campus for their safety. The perpetrator
+                threatens to file a lawsuit in response. This is particularly hurtful because the University of Tasmania
+                is the only university in the state - forcing Grace to choose between being at the Uni with her
+                assaulter, or leave home to study alone. Grace chose to leave Australia.</li>
+            <li><strong>December 2017</strong> Media Commentator Bettina Arndt interviews the perpetrator (the video of
+                which has now been removed from the internet), making the perpetrator out to be a matyr who has been
+                falsely accused and laying blame at Grace's feet.</li>
+            <li><strong>September 2018</strong> The "End Rape on Campus" campaign formally goes to TESQA - the
+                university regulatory body. It is ruled in favour of the complainants - and the perpetrator is removed.</li>
+            <li><strong>November 2018</strong> Grace starts the #Letherspeak campaign - advocating for the amendment to
+                the laws in Tasmania that prevent victims of sexual violence from speaking out. This is likely directly
+                in response to her perpetrator being able to talk negatively about her.</li>
+            <li><strong>April 2020</strong> The Law that forced Survivors to be silent was overturned, allowing Grace to
+                speak about her struggles.</li>
+            <li><strong>April - October 2020</strong> Grace becomes an advocate, speaking out about sexual assault and the struggles that face survivors.</li>
+            <li><strong>October 2020</strong> Nominated and won, Tasmanian of the Year.</li>
+            <li> <srong>January 2021</strong> Nominated and won, Australian of the Year.</li>
+        </ul>
+    
+    <p>Grace's speech at the Australian of the Year awards described as "inspiring". A highlight of her speech:
+    <blockquote>All survivors of child sexual abuse, this is for us ... When we share, we heal. Together we can end
+        child sexual abuse. I remember him saying, 'Don't make a sound.' Well, hear me now, using my voice amongst a
+        chorus of voices that will not be silenced."</blockquote>
+    </p>
+
+    If you would like to read more about Grace's ordeal, and the strength she used to survive, you can, <a
+        id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Grace_Tame">here.</a>
+    </div>
+    <footer id="page-footer">Written and Coded by Hayley G</footer>
+    
+</body>
+<script scr="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
