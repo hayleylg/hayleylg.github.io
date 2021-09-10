@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Hayley Goodacre">
+        <title>FreeCodeCamp Technical Documentation</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Poppins&display=swap" rel="stylesheet">
+        <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <style type="text/css">
+        body{
+            font-family: Poppins;
+            color: navy;
+            display: grid;
+            grid-template-columns: 15% auto;
+            grid-column-gap: 10px;
+            grid-template-areas: "navigation text"
+            "navigation footer"      
+            }
+        #navbar{
+            height:100%;
+            width: relative;
+            position: fixed;
+            overflow: auto;
+        }
+
+        main{
+            padding-left: 10px;
+            grid-area: text;
+        }
+        #page-footer{
+            text-align: center;
+            grid-area: footer;
+        }
+        #top-header{
+            display: flex;
+            flex-direction: column;
+            position: left;
+            width: 100%;
+            background-color: #48bdf7;
+            color: white;
+            font-family: Poppins;
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        #title{
+            font-size: 20px;
+            color: black; 
+            display: flex;
+            flex-direction: column;
+            width: min-content;
+            justify-content:space-around;
+            padding: 10px 66px 10px 66px;
+            
+               
+        }
+        #nav-list{
+            list-style-type: none;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width:min-content;
+            grid-area: navigation;            
+        }
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 10px 40px;
+            
+        }
+        
+        li a:hover {
+            background-color:#a0dcfa;
+        }
+        @media screen and (max-width: 576px) {
+            #topheader {
+              display:none;
+            }
+            #navbar{
+                display:none;
+            }
+        }
+        
+        </style>
+    </head>
+    <body>
+        <header id="top-header">
+            <nav id="navbar">
+                <header id="title">Oropharyngeal Airway Adjuncts</header>
+                <ul id="nav-list">
+                    <li> <a href="#Basic_Airway_Anatomy" class="nav-link">Basic Airway Anatomy</a></li>
+                    <li> <a href="#What_is_an_airway_adjunct?" class="nav-link">What is an airway adjunct?</a></li>
+                    <li> <a href="#What_are_the_grades_of_airway_adjuncts?" class="nav-link">What are the grades of airway adjuncts?</a></li>
+                    <li> <a href="#How_to_insert_an_OPA" class="nav-link">How to insert an OPA</a></li>
+                    <li> <a href="#Complications_and_Contraindications" class="nav-link">Complications and Contraindications</a></li>
+                    <li> <a href="#Conclusion" class="nav-link">Conclusion</a></li>
+                    <li> <a href="#Completion" class="nav-link">Completion</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-doc">
+            <section class="main-section" id="Basic_Airway_Anatomy">
+                <header><h1>Basic Airway Anatomy</h1></header>
+                <p>The airway can be broken down into 5 main parts.  All have an important role, and can be managed to aid respiratory and ventilatory drive in the patient.</p>
+                <ol>
+                    <li>Nose: The nose can be divided into external and internal portions. The external portion provides a supporting structure of bone and cartilage for the overlying muscle and skin; it is lined with a mucous membrane.The internal portion lies inferior to the nasal bone and superior to the mouth and contains both muscle and a mucous membrane. It is worth remembering that the internal nares extend in an anterior-posterior direction, especially when inserting a nasopharyngeal airway.</li>
+                    <li>Mouth: The mouth is not strictly a part of the airway, but as many airway management interventions involve the mouth, it is worth reviewing basic anatomy. The mouth is formed by the cheeks, hard and soft palates, and the tongue.</li>
+                    <li>Pharynx: The pharynx is divided into three anatomical sections; the nasopharynx (extending from the internal nares to the posterior edge of the soft palate), the oropharynx (extending to the base of the tongue at the level of the hyoid bone) and the laryngopharynx (extending to the opening of the oesophagus).</li>
+                    <li>Larynx: The larynx consists of nine cartilages; three paired and three single.The epiglottis projects above the glottis and protects the larynx during swallowing. The thyroid cartilage forms most of the anterior and lateral surfaces of the larynx and tends to be more prominent in men. The cricoid cartilage is the ring-shaped cartilage that connects the larynx to the trachea. The three paired cartilages are found within the interior structure of the larynx and are the arytenoids, corniculate and cuneiform cartilages.</li><br>
+                    <img src="https://i0.wp.com/nursekey.com/wp-content/uploads/2017/05/fig1_3.jpg?w=960" alt="A diagram of the larynx with labels."><br>
+                    <li>Trachea: The trachea is approximately 11–12 cm long and 2.5 cm in diameter. It is held open by ‘C’ shape cartilage, which is open posteriorly to allow for extension of the oesophagus during swallowing. The trachea bifurcates into the left and right main bronchi around the level of the 5th thoracic vertebra. </li>
+                </ol>
+            </section>
+            <section class="main-section" id="What_is_an_airway_adjunct?">
+                <header><h1>What is an airway adjunct?</h1></header>
+                    <p>An airway adjunct is used in a critically unwell patient, that is unable to maintain their own airway. It is used by Ambulance Services, staff of Emergency Departments, ICUs and Operating Theatres.  Airway adjuncts are rarely used in the case of ward nursing - however they are staple items in all resuscitation trolleys.</p>
+                    <p>The intention of an airway adjunct is to hold open the airway while a patient cannot maintain their own - often due to reduced level of consciousness. Whether the reduced level of consciousness is due to drugs or alcohol, procedural sedation or neurological injury - an oral pharyngeal airway is often the second line treatment, however is more commonly used than the firt line nasopharyngeal airway.</p>
+            </section>
+            <section class="main-section" id="What_are_the_grades_of_airway_adjuncts?">
+                <header><h1>What are the grades of airway adjuncts?</h1></header>
+                <p>When considering an airway adjunct - there is generally an order of intervention that is followed to help maintain a patient's airway.</p>
+                <ol>
+                    <li>Patient positioning- Reposition the patient to assist them to maintain their own airway.  The recovery position, or placing their head slightly extended may help them maintain their own airway.</li>
+                    <li>Airway manoeuvres - An jaw thrust or head tilt-chin lift can be used to position the patient to maintain their airway.  This is often in the short term, and can place strain on the person performing the manoeuvre.</li>
+                    <li>Nasopharyngeal Airway - Inserted through one of the nares, this airway adjunct is first line because it is generally well tolerated by the semi-conscious patient.</li>
+                    <img src="https://cdn.shopify.com/s/files/1/2232/5125/products/Rusch_Teleflex_Nasopharyngeal_620x.jpg?v=1506568850" alt="The standard sizes of nasopharyngeal airways laid in ascending order of size from top to bottom.">
+                    <li>Oropharyngeal Airway- Inserted throught the mouth, this airway adjunct is second line as it means the patient is able to ventilate themselves, but is too drowsy to maintain their airway</li>
+                    <img src="https://www.intersurgical.com/content/images/dynamic/61149/-2008464931/350/1000035-1115120%20Guedel%20Group%20Shots%20(6).jpg" alt="The standard sizes of oropharyngeal airways stacked in ascending order from left to right.">
+                    <li>Laryngeal Mask Airway- Inserted through the mouth, this airway adjunct extends further into the airway, placing direct pressure on the larynx. This adjunct can be ventilated through, however is a less permanent solution than a formal endo-tracheal tube.</li>
+                    <img src="https://4.imimg.com/data4/TO/GN/MY-2085686/silicone-laryngeal-mask-airway-reuseable-lma-500x500.jpg" alt="The standard sizes of laryngeal mask airways stacked in ascending order from bottom to top.">
+                    <li>Endotracheal Tube- Inserted through the mouth, this passess directly through the vocal cords and extends to the main bronchus.  This is then further connected to a ventilation to allow for complete respiratory drive to be managed for the patient.  The patient is often chemically sedated and paralysed when an endo-tracheal tube is inserted.</li>
+                    <img src="https://acuclinic.com.au/pocit/ETT.png" alt="A single endotracheal tube, with all important points marked">
+                    <li>Tracheostomy- In a "Can't Intubate- Can't Oxygenate" situation, an incision may be made on the patients throat to insert a tracheostomy tube directly into the trachea.</li>
+                    <img src= "https://clinical.stjohnwa.com.au/images/default-source/medical-library-images/trache.jpg?sfvrsn=aac896c2_0" alt="A diagram of a human, side on, with an inserted tracheostomy tube.  The tube is labelled with all the important parts.">
+                </ol>
+            </section>
+            <section class="main-section" id="How_to_insert_an_OPA">
+                <header><h1>How to insert an OPA</h1></header>
+                <p>An oral pharyngeal airway should be sized by placing the tip at the tragus of the ear, and the flange at the incisors.  However, if you need to size an oropharyngeal airway for a child, the measurement should be from the tragus of the ear, to the CENTER of the mouth.</p>
+                <p>An oral pharyngeal airway can be inserted two ways in an adult - depending on insertors preference.</p>
+                <ol>
+                    <li>Upside down:
+                        <ul>
+                            <li>Position the patient with the neck extended, whilst lying on their back.</li>
+                            <li>Size the correct OPA</li>
+                            <li>Using a tongue depressor, press the tongue out of the way.</li>
+                            <li>Insert the lubricated OPA into the mouth, with the tip of the OPA extending back into the mouth and the curve facing the roof of the mouth.</li>
+                            <li>Once the flange is near the teeth, carefully turn the OPA so the curve sits along the tongue, and then fully insert the OPA until the flange is resting on the lips.</li>
+                        </ul>
+                    <li>Correct side up:</li>
+                        <ul>
+                            <li>Position the patient with the neck extended, whilst lying on their back.</li>
+                            <li>Size the correct OPA</li>
+                            <li>Using a tongue depressor, press the tongue out of the way.</li>
+                            <li>Insert the lubricated OPA into the mouth, with the curve facing towards the tongue immediately. Continue inserting the OPA, with maintained pressure on the tongue, until the flange rests on the lips. </li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <section class="main-section" id="Complications_and_Contraindications">
+                <header><h1>Complications and Contraindications</h1></header>
+                <p>Potential complications of OPA insertion include:
+                    <ul>
+                        <li>May induce vomiting and cause aspiration</li>
+                        <li>Inappropriately sized OPA may exacerbate airway obstruction or induce laryngospasm.</li>
+                        <li>Insertion of an OPA may cause damage to dentition or oral structures. <b>This is especially true in children due to their soft palate - if you have not been trained on inserting an OPA in a child, do not proceed.</b></li>
+                    </ul>
+                    Contraindications of OPA insertion include:
+                    <ul>
+                        <li>Intact Gag reflex.</li>
+                        <li>Visible foreign body in mouth or airway.</li>
+                        <li>Epistaxis</li>
+                        <li>Suspected Nasal Fracture</li>
+                    </ul>
+                </p>
+            </section>
+            <section class="main-section" id="Conclusion">
+                <header><h1>Conclusion</h1></header>
+                <p>Oropharyngeal airway adjuncts can be especially useful in securing the airway in a critically unwell patient.  They are found in all hospitals, and may be called other names including: guedels, oral airway ot guedel pattern airway. </p>
+                <p>Oropharyngeal airway adjuncts can be inserted by trained nursing staff, medical officers, or other appropriately trained staff.  They should be a practiced skill in all hospital based Basic Life Assessment assessments - though they do not form part of the Basic Life Support that is attended by general members of the public. So do not expect to see these in community health.</p>
+                <p>An Oropharyngeal airway can be left in if this has been inserted by an Ambualance Service Member, and can remain in as long as the patient does not deteriorate (in which case the airway should be secured by more invasive measures) or if the patient does not tolerate the OPA (in which case the OPA can be removed and either stepped back to a NPA or to see if the patient can maintain their own airway).</p>
+            </section>
+            <section class="main-section" id="Completion">
+                <header><h1>Completion</h1></header>
+                <code>This section is for completion</code>
+                <code>They need code elements</code>
+                <code>Which is silly, because I dont know enough about code to write it</code>
+                <code>So I'm seeing if this will work</code>
+                <code>But I doubt it</code>
+            </section>
+        </main>
+        <footer id="page-footer">Written and Coded by Hayley G</footer>
+    </body>
+
+</html>
