@@ -12,6 +12,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Poppins&display=swap" rel="stylesheet">
     <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <style type="text/css">
+    body{
+        padding-top: 200px;
+        font-family: Poppins;
+        --primary-color: #6CCFF6;
+        --text-color: #020505;
+        --secondary-text-color: #757780;
+        --accent-color: #98CE00;
+        background-color: #FFFFFC;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: var(--primary-color);
+        position: sticky;  
+        font-size: 14px;
+    }
+
+    li{
+        float: left;
+        display: inline;
+    }
+
+    li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 40px;
+    }
+
+    li a:hover {
+        background-color:#95ddf9;
+    }
+
     #header{
         display: flex;
         flex-direction: column;
@@ -19,8 +54,8 @@
         width: 100%;
         top: 0;
         left: 0;
-        background-color: #48bdf7;
-        color: white;
+        background-color: var(--primary-color);
+        color: var(--text-color);
         font-family: Poppins;
         text-align: center;
         font-size: 20px;
@@ -35,33 +70,6 @@
         justify-content: space-evenly;
     }
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color:#48bdf7;
-        position: sticky;  
-        font-size: 14px;
-    }
-    li{
-        float: left;
-        display: inline;
-    }
-    li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 10px 40px;
-    }
-    
-    li a:hover {
-        background-color:#a0dcfa;
-    }
-    body{
-        padding-top: 200px;
-        font-family: Poppins;
-        color: navy;
-    }
     #video{}
 
     #examples{
@@ -71,7 +79,7 @@
 
     @media all and (max-width: 700px){
         header{
-            background-color:white;
+            background-color: FFFFFC;
         }
     }
     #page-footer{
